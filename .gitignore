@@ -1,0 +1,25 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+*token*
+*credentials*
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Data, logs, outputs (local only)
+/data/
+/logs/
+*.log
+*.db
+*.sqlite
+*.sqlite3
+/reports/
+*.csv
+!assets/indices/*.csv
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
